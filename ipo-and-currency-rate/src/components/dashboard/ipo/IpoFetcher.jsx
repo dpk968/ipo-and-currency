@@ -42,11 +42,11 @@ function IpoFetcher() {
         />
       </div>
       <div className="ipo-card">
-      {/* {data.map((item) => (
+        {data.map((item) => (
           <div key={item.id}>
              <IpoCardView item={item} />
           </div>
-        ))} */}
+        ))}
       </div>
     </>
   );
