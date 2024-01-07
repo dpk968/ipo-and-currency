@@ -38,7 +38,7 @@ The project is a React application that serves as a customizable dashboard for s
 2. **Navigate to the project directory:**
 
     ```bash
-    cd stock-mrkt
+    cd ipo-and-currency-rate
     ```
 
 3. **Install dependencies:**
