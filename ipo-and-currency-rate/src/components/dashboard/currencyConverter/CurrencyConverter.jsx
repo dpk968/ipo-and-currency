@@ -51,11 +51,11 @@ const CurrencyConverter = ({ fetchCurrency }) => {
 
       {loading && <p>Loading. ..</p>}
       <div className="currency-converter">
-        {/* {data.map((item) => (
+        {data.map((item) => (
           <div key={item.id}>
             <CurrencyConverterCardView item={item} />
           </div>
-        ))} */}
+        ))}
       </div>
     </div>
   );
