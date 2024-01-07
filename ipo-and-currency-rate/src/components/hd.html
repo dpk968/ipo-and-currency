@@ -1,0 +1,228 @@
+<div id="root">
+  <div
+    class="landing-page"
+    style="
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
+      flex-direction: column-reverse;
+    "
+  >
+    <div class="image-container">
+      <img
+        src="/static/media/financial-data.2f205b59a40127910766.jpg"
+        alt="Stock Market"
+        class="stock-market-img"
+      />
+    </div>
+    <div class="content-container">
+      <h1>Welcome to Your Stock Market</h1>
+      <h3>Largest stock broker in India</h3>
+      <p>
+        Online platform to invest in stocks, derivatives, mutual funds, and more
+      </p>
+      <div class="buttons-container">
+        <button class="sign-up-button">Sign Up</button
+        ><button class="connect-button">Connect Us</button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="home-screen-second-panel"
+    style="
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 30px 0px;
+      align-items: center;
+    "
+  >
+    <div class="left-content">
+      <div class="small-ball-anime">
+        <img
+          src="data:image/png;base64,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"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="bitcoin-img" style="/* width: 30px; */">
+        <img
+          src="/static/media/about_img01.92aec9a4de2f58631598-removebg-preview.9d5609fa555e7a167458.png"
+          alt=""
+          srcset=""
+          style="width: 232px"
+        />
+      </div>
+    </div>
+    <div class="right-content">
+      <p class="paragraph-with-dots">WHO WE ARE</p>
+      <h1>The World’s 1st ICO Platform That Offers Rewards</h1>
+      <p>
+        The World’s 1st ICO Platform That Offers Rewards and The platform helps
+        investors to make easy to purchase and sell their tokens
+      </p>
+      <button class="token-btn">Purchase Tokens</button>
+    </div>
+  </div>
+  <div
+    class="chart-container"
+    style="
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      /* flex-direction: column; */
+    "
+  >
+    <div class="container">
+      <div class="token-allocation">
+        <h6>FUNDING ALLOCATION</h6>
+        <h1>1 CNL = 0.0863 BTC</h1>
+        <p>
+          The World’s 1st ICO Platform That Offers Rewards and The platform
+          helps investors to make easy to purchase and sell their tokens
+        </p>
+        <button class="token-btn">Buy Now</button>
+      </div>
+      <div class="chart-statics">
+        <img
+          src="/static/media/chart.6df1c9e4e216dbaa2dec.png"
+          alt=""
+          style="width: 200px; /* margin-top: 30px; */"
+        />
+        <ul class="chart" style="font-size: 10px; /* margin-left: 20px; */">
+          <li>Contingency: 70%</li>
+          <li>Business Development: 10%</li>
+          <li>Investor: 30%</li>
+          <li>Poland</li>
+          <li>Legal &amp; Regulation:10%</li>
+          <li>Czech Republic</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="team">
+    <div class="our-team-heading">
+      <div class="team-title">
+        <p class="paragraph-with-dots">OUR TEAM</p>
+        <h1>The Leadership Team</h1>
+      </div>
+    </div>
+    <div class="all-team">
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+      <div class="team-div">
+        <div class="upper">
+          <img
+            src="/static/media/team_img01.37d4d208ce1d69c86047.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="team-about">
+          <h6>Cameron Williamson</h6>
+          <span>Product Manager</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Get connected with us on social networks:</p>
+    <hr />
+    <div class="footer-content">
+      <div class="footer-col-1"><h5>Deepak Stock market</h5></div>
+      <div class="footer-col-1">
+        <h5>UseFul Links</h5>
+        <ul>
+          <li>dashboard</li>
+          <li>Login</li>
+          <li>SignUp</li>
+        </ul>
+      </div>
+      <div class="footer-col-1">
+        <h5>Contacts</h5>
+        <ul class="footer-ul">
+          <li>203 Fake St. Mountain View, San Francisco, California, USA</li>
+          <li>info@yourdomain.com</li>
+          <li>+2 392 3929 210</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">Copyright ©2023 All rights reserved</div>
+  </div>
+</div>

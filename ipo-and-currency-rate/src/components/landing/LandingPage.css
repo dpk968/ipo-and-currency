@@ -1,0 +1,325 @@
+.landing-page {
+  background: linear-gradient(to right top, #02121f, #001f81);
+  /* background-image: url('../img/starImage.jpg'); */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  /* height: 100vh; */
+}
+
+.image-container {
+  flex: 1;
+}
+
+.stock-market-img {
+  background-image: url("../../img/D2.png");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex: 1; */
+  padding: 20px;
+  /* margin:30px; */
+}
+
+.content-container h1 {
+  font-size: 2rem;
+  /* margin-bottom: 20px; */
+}
+
+.content-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.token-allocation {
+  width: 40%;
+  color: #fff;
+  margin: 100px 0px;
+}
+
+.buttons-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.sign-up-button,
+.connect-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: solid 1px #006bf1;
+  border-radius: 30px;
+  /* width: 50px; */
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+
+.sign-up-button:hover,
+.connect-button:hover {
+  /* opacity: 0.8; */
+  background-color: #006bf1;
+  border: none;
+  color: #fff;
+}
+
+.home-screen-second-panel {
+  padding: 20px 100px;
+  background-color: #02121f;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content,
+.right-content {
+  padding: 0 20px;
+}
+
+.small-ball-anime img {
+  position: relative;
+  animation: moveBackAndForth 5s ease-in-out infinite;
+}
+
+@keyframes moveBackAndForth {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+.paragraph-with-dots {
+  position: relative;
+  padding: 20px;
+  width: fit-content;
+}
+
+.paragraph-with-dots::before,
+.paragraph-with-dots::after {
+  background: #00c4f4;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+}
+
+.paragraph-with-dots::before {
+  left: 0;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.paragraph-with-dots::after {
+  left: auto;
+  right: 0;
+}
+
+.token-btn {
+  background-color: transparent;
+  border: 2px solid skyblue;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.token-btn:hover {
+  color: #00b1de;
+  border: 2px solid #009fde;
+}
+
+.chart-container {
+  background-image: url("../../img/earth.jpg");
+  background-position: 50%;
+  background-size: cover;
+  padding: 130px 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.chart-statics {
+  background: #0b1d33;
+  border-radius: 20px;
+  padding: 26px 30px;
+  text-align: center;
+  width: 45%;
+}
+
+.chart-statics img {
+  margin-bottom: 75px;
+}
+
+.chart-statics ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.chart li {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.chart-statics ul li {
+  position: relative;
+  /* margin: 5px; */
+  width: 40%;
+  left: 5%;
+  /* min-height: 150px; */
+}
+
+.chart-statics ul li::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  background: #005f73;
+  height: 15px;
+  /* background-color: lightgrey; */
+  left: -10%;
+  border-radius: 50%;
+}
+
+.chart-statics ul li:nth-child(2):before {
+  background: #f72585;
+}
+.chart-statics ul li:nth-child(3):before {
+  background: #5dd400;
+}
+.chart-statics ul li:nth-child(4):before {
+  background: #ff9700;
+}
+.chart-statics ul li:nth-child(5):before {
+  background: #00c4f4;
+}
+.chart-statics ul li:nth-child(6):before {
+  background: #007ff4;
+}
+.team {
+  background-image: url("../../img/starImage.jpg");
+  background-position: 50%;
+  background-size: cover;
+  padding: 130px 0;
+  padding: 5%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-title {
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.all-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+  align-items: center;
+  padding: 0 4%;
+}
+.upper {
+  position: relative;
+  overflow: hidden;
+}
+.upper::before {
+  content: "";
+  border-radius: 50%; /* Make it circular */
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed transparent;
+  transform-origin: center;
+  animation: rotateDashes 5s linear infinite;
+  margin: 10px; /* Add margin inside the image */
+  box-sizing: border-box; /* Include margin in the element's dimensions */
+}
+
+.upper:hover::before {
+  border-color: #00b1de;
+}
+@keyframes rotateDashes {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.team-about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+/* li::before {
+  content: '\2022'; 
+  color: skyblue; 
+  font-size: 1.5em; 
+  margin-right: 8px; 
+}
+.chart-statics ul li:before {
+  background: #005f73;
+  border-radius: 50%;
+  content: "";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+} */
+
+/* @media only screen and (min-width: 576px) and (max-width: 767px) .chart-wrap ul li {
+    width: 50%;
+}
+
+@media (max-width: 767.98px)
+.chart-wrap ul li {
+    width: 100%;
+} */
