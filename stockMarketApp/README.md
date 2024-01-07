@@ -1,4 +1,4 @@
-# Stock Market App
+# IPO dashboard and Currency converter App
 
 Welcome to the Stock Market App, a React Native project for tracking stock information. This app provides features such as user registration, login, a dashboard with stock charts, and a news fetcher.
 
@@ -88,5 +88,7 @@ Happy coding!
 
 ## Screenshots
 
-![App Screenshot](https://github.com/dpk968/stock-market/blob/master/stockmarketapp/screenshots/Screenshot_2023-12-30-21-41-57-99_109088c9951399c8c540b86cb831c394.jpg)
-![App Screenshot](https://github.com/dpk968/stock-market/blob/master/stockmarketapp/screenshots/Screenshot_2023-12-30-23-20-46-90_109088c9951399c8c540b86cb831c394.jpg)
+![App Screenshot](https://github.com/dpk968/ipo-and-currency/blob/master/stockMarketApp/screenshots/Screenshot_2024-01-07-03-07-34-39_109088c9951399c8c540b86cb831c394.jpg)
+![App Screenshot](https://github.com/dpk968/ipo-and-currency/blob/master/stockMarketApp/screenshots/Screenshot_2024-01-07-13-19-29-59_109088c9951399c8c540b86cb831c394.jpg)
+![App Screenshot](https://github.com/dpk968/ipo-and-currency/blob/master/stockMarketApp/screenshots/Screenshot_2024-01-07-13-19-10-21_109088c9951399c8c540b86cb831c394.jpg)
+![App Screenshot](https://github.com/dpk968/ipo-and-currency/blob/master/stockMarketApp/screenshots/Screenshot_2024-01-07-13-19-13-43_109088c9951399c8c540b86cb831c394.jpg)
