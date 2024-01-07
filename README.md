@@ -1,4 +1,4 @@
-# Stock Market Dashboard
+# IPO Dashboard
 
 The Stock Market Dashboard is an interactive platform for users to view and analyze real-time stock market data. It should offer features like viewing different stock categories, a personalized dashboard, real-time data visualization, and customizable settings.
 
